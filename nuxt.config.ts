@@ -11,7 +11,11 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["nuxt-lucide-icons"],
+  modules: [
+    "nuxt-lucide-icons",
+    "@nuxtjs/tailwindcss",
+    "shadcn-nuxt",
+  ],
   
   lucide: {
     namePrefix: "Icon",
